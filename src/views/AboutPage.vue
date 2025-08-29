@@ -29,16 +29,19 @@
           <p class="text-sm text-green-800 dark:text-green-200 max-w-[18rem] mb-4">{{ member.bio }}</p>
 
           <div class="flex gap-3">
-           <a
+            <a
               :href="member.social.tiktok || '#'"
               target="_blank"
               aria-label="tiktok"
               class="p-2 rounded-full hover:bg-green-200 dark:hover:bg-green-700"
               :class="{ 'opacity-40 pointer-events-none': !member.social.tiktok }"
             >
-              <!-- ikon tiktok -->
-              <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M22 5.92c-.63.28-1.3.46-2 .54.72-.43 1.27-1.1 1.53-1.9-.67.4-1.41.68-2.2.84A3.4 3.4 0 0 0 12 8.3c0 .27.03.53.1.78-2.83-.14-5.34-1.5-7.02-3.57-.3.52-.47 1.12-.47 1.76 0 1.2.61 2.25 1.54 2.87-.57-.02-1.1-.17-1.57-.43v.04c0 1.7 1.21 3.12 2.83 3.44-.3.08-.62.12-.95.12-.23 0-.46-.02-.68-.06.46 1.44 1.8 2.49 3.38 2.52A6.82 6.82 0 0 1 3 18.57a9.63 9.63 0 0 0 5.21 1.53c6.26 0 9.68-5.19 9.68-9.69v-.44A6.92 6.92 0 0 0 22 5.92z"/></svg>
+              <!-- ikon TikTok -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+                <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z"/>
+              </svg>
             </a>
+
 
             <a
               :href="member.social.instagram || '#'"
