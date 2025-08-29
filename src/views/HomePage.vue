@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-3xl mx-auto mt-24">
+  <div class="max-w-3xl mx-auto">
     <!-- Slider -->
     <div class="relative mb-8">
       <img
@@ -37,7 +37,14 @@
 
     <!-- Thumbnail Berita Responsive Cards -->
     <div class="mt-12">
-      <h2 class="text-xl font-bold mb-4">Berita Terbaru</h2>
+      <header class="mb-1 flex items-center justify-between">
+        <div>
+          <h2 class="text-xl font-bold mb-4">Berita Terbaru</h2>
+        </div>
+        <div class="hidden sm:flex gap-2">
+          <button>Semua</button>
+        </div>
+      </header>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:max-w-none">
         <ThumbnailNews
           v-for="news in newsList"

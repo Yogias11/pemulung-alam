@@ -21,16 +21,18 @@ function openDetail() {
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
-    <img :src="img || thumbnailImg" alt="Thumbnail Berita" class="w-full h-32 object-cover rounded mb-2" />
-    <p class="text-base font-medium mb-1">{{ title }}</p>
-    <p class="text-sm text-gray-500 mb-2">{{ date }}</p>
-    <p class="text-sm">{{ summary }}</p>
-    <button
-      class="mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-      @click="openDetail"
-    >
-      {{ t('readMore') }}
-    </button>
-  </div>
+  <!-- <div class="flex flex-col items-center"> -->
+    <div class="max-w-3xl mx-auto p-6 bg-white rounded shadow">
+      <img :src="img || thumbnailImg" alt="Thumbnail Berita" class="w-full h-32 object-cover rounded mb-2" />
+      <p class="text-base font-medium mb-1">{{ title }}</p>
+      <p class="text-sm text-gray-500 mb-2">{{ date }}</p>
+      <p class="text-sm">{{ summary }}</p>
+      <button
+        class="mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
+        @click="openDetail"
+      >
+        {{ t('readMore') }}
+      </button>
+    </div>
+  <!-- </div> -->
 </template>
