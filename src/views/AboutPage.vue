@@ -72,63 +72,63 @@ const members = ref([
     role: 'Ketua',
     bio: 'Leads product vision, roadmap and cross-functional teams to deliver impact.',
     avatar: 'https://i.pravatar.cc/150?img=12',
-    social: { tiktok: 'https://tiktok.com/', instagram: 'https://instagram.com/' }
+    social: { tiktok: 'https://tiktok.com/', instagram: 'https://www.instagram.com/abidin.43?igsh=MWs3cmRpMDg1ZXZleQ==' }
   },
   {
     id: 2,
-    name: 'Fitra Arief Prakoso',
+    name: 'Fitra',
     role: 'Wakil Ketua',
-    bio: 'Builds scalable systems and loves clean architecture.',
+    bio: 'bahagia in public, ngelu ndas e in private',
     avatar: 'https://i.pravatar.cc/150?img=5',
-    social: { tiktok: '', instagram: 'https://instagram.com/' }
+    social: { tiktok: '', instagram: 'https://www.instagram.com/fitra40?igsh=d2tjYmlmMXZjYWVk' }
   },
   {
     id: 3,
-    name: 'Moch Irvan Arrasyid',
+    name: 'Irvan',
     role: 'Member',
-    bio: 'Designs intuitive interfaces and meaningful experiences.',
+    bio: 'sudah kudaki gunung tertinggi, hanya untuk mencari dirimu. scoby dooby doo where are you??',
     avatar: 'https://i.pravatar.cc/150?img=32',
-    social: { tiktok: 'https://tiktok.com/', instagram: '' }
+    social: { tiktok: 'https://tiktok.com/', instagram: 'https://www.instagram.com/mirvanarrasyid?igsh=d3NlYXdxcHUwNGM5' }
   },
   {
     id: 4,
-    name: "Rif'an aunul khabibi",
+    name: "Rifan",
     role: 'Member',
     bio: 'Specialist in Vue and delightful UI interactions.',
     avatar: 'https://i.pravatar.cc/150?img=47',
-    social: { tiktok: '', instagram: 'https://instagram.com/' }
+    social: { tiktok: '', instagram: 'https://www.instagram.com/richardmaulanaulinnuha?igsh=MzdpYTZ2amxwNzBy ' }
   },
   {
     id: 5,
-    name: 'Isma Aditya Pratama',
+    name: 'Adit',
     role: 'Member',
     bio: 'Makes sure releases are rock-solid and reliable.',
     avatar: 'https://i.pravatar.cc/150?img=66',
-    social: { tiktok: '', instagram: '' }
+    social: { tiktok: '', instagram: 'https://www.instagram.com/aditya.prrtma?igsh=dmw3bWZkZTh4NHRi' }
   },
   {
     id: 6,
-    name: 'Dita Aulia Himayanti',
+    name: 'Dita',
     role: 'Member',
     bio: 'Automates infra and deployment pipelines.',
     avatar: 'https://i.pravatar.cc/150?img=8',
-    social: { tiktok: '', instagram: 'https://instagram.com/' }
+    social: { tiktok: '', instagram: 'https://www.instagram.com/anotheraulx?igsh=ZGd6aTh1MTRyMXJz' }
   },
   {
     id: 7,
-    name: 'Yuni Khoirul Fatimah',
+    name: 'Yuni',
     role: 'Member',
     bio: 'Turns data into product insights and experiments.',
     avatar: 'https://i.pravatar.cc/150?img=21',
-    social: { tiktok: '', instagram: '' }
+    social: { tiktok: '', instagram: 'https://www.instagram.com/yunifatimah_?igsh=MW9ka3VtbmFiOWtvcQ==' }
   },
   {
     id: 8,
-    name: 'Abdul Rozak Bachri',
+    name: 'Rozak',
     role: 'Member',
     bio: 'Builds buttery-smooth mobile experiences.',
     avatar: 'https://i.pravatar.cc/150?img=3',
-    social: { tiktok: '', instagram: 'https://instagram.com/' }
+    social: { tiktok: '', instagram: 'https://www.instagram.com/arozakkkk?igsh=Yjdsd3RscHQ3cXhv' }
   }
 ])
 </script>

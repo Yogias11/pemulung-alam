@@ -12,7 +12,7 @@ const props = defineProps({
   id: [String, Number]
 })
 
-// Import image from assets
+// Import image default dari assets
 import thumbnailImg from '@/assets/img/thumbnail.jpeg'
 
 function openDetail() {
@@ -21,18 +21,38 @@ function openDetail() {
 </script>
 
 <template>
-  <!-- <div class="flex flex-col items-center"> -->
-    <div class="max-w-3xl mx-auto p-6 bg-white rounded shadow">
-      <img :src="img || thumbnailImg" alt="Thumbnail Berita" class="w-full h-32 object-cover rounded mb-2" />
-      <p class="text-base font-medium mb-1">{{ title }}</p>
-      <p class="text-sm text-gray-500 mb-2">{{ date }}</p>
-      <p class="text-sm">{{ summary }}</p>
-      <button
-        class="mt-3 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition"
-        @click="openDetail"
-      >
-        {{ t('readMore') }}
-      </button>
-    </div>
-  <!-- </div> -->
+  <div
+    class="max-w-3xl mx-auto p-6 bg-white rounded-2xl shadow-lg border border-green-100 hover:shadow-xl transition duration-300"
+  >
+    <img
+      :src="img || thumbnailImg"
+      alt="Thumbnail Berita"
+      class="w-full h-40 object-cover rounded-lg mb-3"
+    />
+    <p class="text-lg font-semibold text-green-800 mb-1 line-clamp-2">{{ title }}</p>
+    <p class="text-sm text-gray-500 mb-2">{{ date }}</p>
+    <p class="text-sm text-gray-700 line-clamp-3">{{ summary }}</p>
+    <button
+      class="mt-4 px-4 py-2 bg-green-700 text-white font-medium rounded-lg shadow hover:bg-green-800 transition"
+      @click="openDetail"
+    >
+      {{ t('readMore') }}
+    </button>
+  </div>
 </template>
+
+<style scoped>
+/* Membatasi teks agar tidak terlalu panjang */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+</style>

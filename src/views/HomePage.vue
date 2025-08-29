@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-3xl mx-auto px-4 sm:px-0">
+  <div class="max-w-6xl mx-auto px-4 sm:px-0">
     <!-- Slider -->
     <div class="relative mb-8">
       <img
@@ -17,7 +17,12 @@
           <h2 class="text-xl font-bold mb-4">Berita Terbaru</h2>
         </div>
         <div class="hidden sm:flex gap-2">
-          <button>Semua</button>
+           <button
+              @click="goToEvent"
+              class="px-4 py-2 text-green hover:bg-green-100 text-green-900 transition"
+            >
+              Semua
+            </button>
         </div>
       </header>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:max-w-none">
@@ -38,7 +43,10 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
+import { useRouter } from 'vue-router'
 import ThumbnailNews from '@/components/ThumbnailNews.vue'
+
+const router = useRouter()
 
 const slides = [
   { img: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6', caption: 'Slide 1' },
@@ -47,6 +55,11 @@ const slides = [
 ]
 const current = ref(0)
 let intervalId
+
+
+function goToEvent() {
+  router.push('/event')
+}
 
 function next() {
   current.value = (current.value + 1) % slides.length
