@@ -4,11 +4,16 @@ import AboutPage from '../views/AboutPage.vue'
 import HomePage from '../views/HomePage.vue'
 import EventPage from '../views/EventPage.vue'
 
+import RegisterForm from '../views/auth/RegisterForm.vue'
+import LoginForm from '../views/auth/LoginForm.vue'
+
 const routes = [
   { path: '/', component: HomePage },
   { path: '/berita/:id', component: DetailNews },
   { path: '/about', component: AboutPage },
-  { path: '/event', component: EventPage}
+  { path: '/event', component: EventPage},
+  { path: '/login', component: LoginForm},
+  { path: '/register', component: RegisterForm}
 ]
 
 const router = createRouter({
