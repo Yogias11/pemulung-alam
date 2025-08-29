@@ -73,7 +73,7 @@ const members = ref([
   },
   {
     id: 2,
-    name: 'Fitra',
+    name: 'Fitra Arief Prakoso',
     role: 'Wakil Ketua',
     bio: 'Builds scalable systems and loves clean architecture.',
     avatar: 'https://i.pravatar.cc/150?img=5',
@@ -81,7 +81,7 @@ const members = ref([
   },
   {
     id: 3,
-    name: 'Maya Sari',
+    name: 'Moch Irvan Arrasyid',
     role: 'Member',
     bio: 'Designs intuitive interfaces and meaningful experiences.',
     avatar: 'https://i.pravatar.cc/150?img=32',
@@ -89,7 +89,7 @@ const members = ref([
   },
   {
     id: 4,
-    name: 'Dwi Santoso',
+    name: "Rif'an aunul khabibi",
     role: 'Member',
     bio: 'Specialist in Vue and delightful UI interactions.',
     avatar: 'https://i.pravatar.cc/150?img=47',
@@ -97,7 +97,7 @@ const members = ref([
   },
   {
     id: 5,
-    name: 'Intan Nur',
+    name: 'Isma Aditya Pratama',
     role: 'Member',
     bio: 'Makes sure releases are rock-solid and reliable.',
     avatar: 'https://i.pravatar.cc/150?img=66',
@@ -105,7 +105,7 @@ const members = ref([
   },
   {
     id: 6,
-    name: 'Bayu Prasetyo',
+    name: 'Dita Aulia Himayanti',
     role: 'Member',
     bio: 'Automates infra and deployment pipelines.',
     avatar: 'https://i.pravatar.cc/150?img=8',
@@ -113,7 +113,7 @@ const members = ref([
   },
   {
     id: 7,
-    name: 'Santi Lestari',
+    name: 'Yuni Khoirul Fatimah',
     role: 'Member',
     bio: 'Turns data into product insights and experiments.',
     avatar: 'https://i.pravatar.cc/150?img=21',
@@ -121,7 +121,7 @@ const members = ref([
   },
   {
     id: 8,
-    name: 'Arief Kurniawan',
+    name: 'Abdul Rozak Bachri',
     role: 'Member',
     bio: 'Builds buttery-smooth mobile experiences.',
     avatar: 'https://i.pravatar.cc/150?img=3',
